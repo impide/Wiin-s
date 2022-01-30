@@ -1,4 +1,22 @@
 .deuxSection {
-    height: 50vh;
+    height: 75vh;
     margin: 0 30px;
+    padding: 0;
+    position: absolute;
+    left: 30px ;
+    top: 1250px;
+    width: 95%;
+    background-color: black;
+    display: flex;
+}
+.colsection {
+    height: 100%;
+    color: wheat;
+    background-image: url("../../assets/Functionnality.png");
+    background-position: center;
+    object-fit: cover;
+    text-align: start;
+}    
+.textalign {
+    margin: 75px 100px;
 }
