@@ -1,0 +1,50 @@
+.bgPaysage {
+    background-image: url(../../assets/Toronto.png);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.collabotors .colColla {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.collabotors .colColla img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.collabotors {
+    display: flex;
+    background-color: black;
+    height: 300px;
+}
+.collabotors .colColla h3 {
+    color: #fff;
+}
+.collabotors .colColla p {
+    color: #fff;
+}
+h2, p {
+    color: #fff;
+    align-self: flex-end;
+    margin-right: 100px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 80px;
+}
