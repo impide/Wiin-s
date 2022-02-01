@@ -9,6 +9,7 @@ import { DeuxSectionComponent } from './deux-section/deux-section.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { QuatriemSectionComponent } from './quatriem-section/quatriem-section.component';
+import { TroisiemSectionComponent } from './troisiem-section/troisiem-section.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { QuatriemSectionComponent } from './quatriem-section/quatriem-section.co
     DeuxSectionComponent,
     FooterComponent,
     QuatriemSectionComponent,
+    TroisiemSectionComponent,
 
   ],
   imports: [

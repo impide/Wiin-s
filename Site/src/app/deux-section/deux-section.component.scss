@@ -1,14 +1,17 @@
 .deuxSection {
-    height: 75vh;
+    height: 100vh;
     margin: 0 30px;
     padding: 0;
     width: 95%;
-    background-color: black;
+    background-color: #141416;
     display: flex;
+    position: relative;
+    top: -200px;
+    z-index: 1;
 }
 .colsection {
     height: 100%;
-    color: wheat;
+    color: #fff;
     background-image: url("../../assets/Functionnality.png");
     background-position: center;
     object-fit: cover;
@@ -16,4 +19,47 @@
 }    
 .textalign {
     margin: 75px 100px;
+}
+.cardBoard {
+    display: flex;
+}
+.card {
+    height: 400px;
+    width: 15rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 10px rgba(33, 37, 41, 0.3);
+    background-color: #1b1c1e;
+}
+.underligne:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background: gray;
+    width: 80%;
+    height: 5px;
+    border-radius: 10px;
+}
+.card1 {
+    position: relative;
+    top: -20px;
+    left: 200px;
+}
+.card2 {
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+.card3 {
+    position: relative;
+    top: 450px;
+    left: -280px;
+}
+.card4 {
+    position: relative;
+    top: 570px;
+    left: -230px;
 }

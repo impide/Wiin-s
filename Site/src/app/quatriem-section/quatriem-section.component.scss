@@ -9,6 +9,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    position: relative;
+    bottom: 100px;
 
 }
 .collabotors .colColla {
@@ -47,4 +49,9 @@ h2, p {
 }
 h2 {
     font-size: 80px;
+}
+.couples {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
 }
