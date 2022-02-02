@@ -1,0 +1,28 @@
+.section2 {
+    background-image: url('../../assets/Coming\ Soon.png');
+    background-size: cover;
+    background-position:bottom;
+    height: 65vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.tokenText {
+    margin: auto;
+    margin-bottom: 200px;
+    text-align: center;
+}
+h1 {
+    font-size: 200px;
+    font-weight: 600;
+    color: #fff;
+
+}
+h2 {
+    background-color: #fff;
+    width: 200px;
+    margin: auto;
+}

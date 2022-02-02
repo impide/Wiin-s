@@ -1,0 +1,28 @@
+.section1 {
+    height: 65vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url('../../assets/Next\ Step.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    color: #fff;
+    align-items: center;
+}
+.row {
+    width: 40%;
+    margin-left: 50px;
+}
+h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+p {
+    font-size: 30px;
+}
+.container-fluid {
+    background-color: rgba(20, 20, 22, 0.5);
+}
